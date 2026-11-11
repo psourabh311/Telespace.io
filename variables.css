@@ -1,0 +1,10 @@
+:root{
+  --bg:#020208;
+  --bg-soft:#05050E;
+  --cyan:#00D9FF;
+  --violet:#7C3AED;
+  --line:rgba(255,255,255,0.08);
+  --border:rgba(255,255,255,0.12);
+  --text-muted:rgba(255,255,255,0.6);
+  --radius-hud:20px;
+}

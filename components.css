@@ -1,0 +1,14 @@
+.max-w{max-width:1280px;margin:0 auto;padding:0 24px}
+@media(min-width:768px){.max-w{padding:0 40px}}
+.hud{backdrop-filter:blur(22px) saturate(140%);background:linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,0.12);box-shadow:inset 0 1px 0 rgba(255,255,255,0.12),0 0 0 1px rgba(0,217,255,0.05),0 20px 80px rgba(0,0,0,0.55);border-radius:20px}
+.hud-glow{transition:border-color .4s,box-shadow .4s,transform .4s}
+.hud-glow:hover{border-color:rgba(0,217,255,0.35);box-shadow:inset 0 1px 0 rgba(255,255,255,0.18),0 0 28px rgba(0,217,255,0.12),0 0 54px rgba(124,58,237,0.10);transform:translateY(-4px)}
+.btn{height:44px;padding:0 24px;border-radius:999px;display:inline-grid;place-items:center;font-size:11px;letter-spacing:0.18em;font-weight:700;cursor:pointer;transition:all .2s;text-decoration:none;border:1px solid transparent}
+.btn-white{background:#fff;color:#000}.btn-white:hover{background:var(--cyan)}
+.btn-ghost{border-color:rgba(255,255,255,0.15);color:rgba(255,255,255,0.7);background:transparent}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.3);color:#fff}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,217,255,0.2);background:rgba(0,217,255,0.1);font-size:10px;letter-spacing:0.22em;color:var(--cyan);font-weight:600}
+header{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,0.06);backdrop-filter:blur(20px);background:rgba(2,2,8,0.7);height:72px;display:flex;align-items:center}
+.cyan-glow{box-shadow:0 0 30px rgba(0,217,255,0.32)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.5}}
